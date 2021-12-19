@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color:rgba(0, 0, 0, 0.534);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.678));
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-size: 50px;
+    color: white;
+    text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.664);
+    font-style: italic;
+}
+
+fieldset {
+    width: 25%;
+    margin-left: 36%;
+    margin-right: 30%;
+    margin-bottom: 30px;
+    border-width: 3px;
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.664);
+    
+}
+
+legend {
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.664);
+    padding: 5px;
+}
+
+label {
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.664);
+}
+
+input , select{
+    box-shadow: 2px 0px 0px rgba(0, 0, 0, 0.363);
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+select {
+    padding: 4px;
+}
+
+.question {
+    font-size: 25px;
+}
+
